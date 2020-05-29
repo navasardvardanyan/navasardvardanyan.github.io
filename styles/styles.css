@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#3c3b39;
+    font-size: 16px;
+    line-height: 24px;
+    color:#1b1a1a;
+    font-family: 'Caladea', serif;
+    display: flex;
+    justify-content: center;
+}
+.resume {
+    width: 58%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 28px 0;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.9);
+}
+.left-side {
+    flex:1;
+    flex-direction: column;
+    background-color: #343331;
+    color: #e1dcd8;
+}
+.left-side .resume-pic img {
+    width:100%;
+    height: auto;
+    margin-bottom: 16px ;
+}
+.left-side .bold {
+    border-bottom: 3px solid #e1dcd8;
+    padding: 16px;
+    font-size: larger;
+}
+.left-side ul {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 12px;
+}
+.left-side  ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.left-side .contact {
+    padding-bottom: 16px;
+}
+
+.left-side ul li .icon {
+
+    width:32px;
+    height: 32px;
+    background-color: #e1dcd8;
+    color: #343331;
+    margin-right: 12px;
+    
+    position: relative;
+}
+.left-side .icon i{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.right-side {
+    flex:2;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bbbab8;
+    color: #343331;
+}
+.right-side .top-side {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+.right-side .top-side .name {
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.right-side .bottom-side {
+    flex: 1.5;
+    margin:0 24px;
+    
+}
+.right-side .title {
+    font-size: 28px;
+    border-bottom: 3px solid #343331;
+    padding-bottom: 12px;
+}
+.right-side ul li {
+    padding-left: 32px;
+}
+.right-side ul{
+    list-style: none;
+    margin:24px 0;
+}
+.right-side .data {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.right-side .info {
+    padding-left: 28px;
+    padding-bottom: 12px;
+}
+
